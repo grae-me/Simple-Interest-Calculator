@@ -7,6 +7,7 @@ function compute()
     if (principal <= 0){
       alert("Principal amount must be greater than 0.");
       principal.focus();
+      return false;
     }
 
     //Capture values for Interest Rate and No. of Years
